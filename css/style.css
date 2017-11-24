@@ -1,4 +1,12 @@
 body {
    /*background-color: red;*/
-   
+}
+
+main, header {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu-list li {
+  display: inline-block;
 }

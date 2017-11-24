@@ -3,7 +3,7 @@
 <head lang="en">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sample Project Folder Demo</title>
+  <title>Jobs Not Spam</title>
   <link rel="stylesheet" href="css/style.css">
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -25,7 +25,17 @@
       </ul>
     </nav>
   </header>
+  <hr>
   <main>
+    <section>
+      <form class="search" action="index.html" method="post">
+        <input type="text" name="jobtitle" value="" placeholder="Job Title">
+        <input type="text" name="keywords" value="" placeholder="Skills or Keywords">
+        <input type="text" name="location" value="" placeholder="Location or Postcode">
+        <button type="button" name="button">Search</button>
+      </form>
+    </section>
+    <hr>
     <div class="user">
       Name: <span id="honorific"></span> <span id="firstname"></span> <span id="lastname"></span>
     </div>
